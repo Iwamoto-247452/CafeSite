@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUNEVIA</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/fabicon.png" type="image/jpg">
+</head>
+
+<body>
+
+  <!--ヘッダー-->
+  <header class="header">
+
+    <h1 class="logo">
+      <a href="#home">
+        <img src="images/LuneviaLogo.png" alt="LUNEVIA">
+        <span>LUNEVIA</span>
+      </a>
+    </h1>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#news">NEWS</a></li>
+        <li><a href="#access">ACCESS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!--HOME-->
+    <section id="home">
+
+      <span class="star star1">✦</span>
+      <span class="star star2">⋆</span>
+      <span class="star star3">✧</span>
+      <span class="star star4">✦</span>
+      <span class="star star5">⋆</span>
+
+      <h2>LUNEVIA</h2>
+
+      <p>Café beneath the stars</p>
+
+      <a href="#menu" class="view-menu">VIEW MENU</a>
+    </section>
+
+    <!--ABOUT-->
+    <section id="about">
+      
+      <h2>ABOUT</h2>
+
+      <div class="about-content">
+
+        <div class="about-slider">
+          
+          <img
+            id="slider-image"
+            src="images/Cafe1.jpg"
+            alt="LUNEVIAのカフェ店内">
+
+          <button
+            type="button"
+            class="slider-button slider-prev"
+            aria-label="前の画像を表示">
+            &#10094
+          </button>
+
+          <button
+            type="button"
+            class="slider-button slider-next"
+            aria-label="次の画像を表示">
+            &#10095
+          </button>
+          
+        </div>
+        
+        <div class="about-text">
+          <h3>LUNEVIAについて</h3>
+
+          <p>
+            夜と星を楽しむ、静かなカフェ。
+            日常から少し離れた幻想的な空間を提供します。
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--MENU-->
+    <section id="menu">
+      <h2>MENU</h2>
+
+      <nav class="menu-nav">
+        <ul>
+
+          <li>
+            <button type="button"
+                    class="menu-tab active"
+                    data-category="recommended">
+                    RECOMMEND
+            </button>
+          </li>
+
+          <li>
+            <button type="button"
+                    class="menu-tab"
+                    data-category="coffee">
+                    COFFEE
+            </button>
+          </li>
+
+          <li>
+            <button type="button"
+                    class="menu-tab"
+                    data-category="drink">
+                    DRINK
+            </button>
+          </li>
+
+          <li>
+            <button type="button"
+                    class="menu-tab"
+                    data-category="food">
+                    FOOD
+            </button>
+          </li>
+
+          <li>
+            <button type="button"
+                    class="menu-tab"
+                    data-category="dessert">
+                    DESSERT
+            </button>
+          </li>
+          
+        </ul>
+      </nav>
+
+      <div class="menu-list">
+
+        <!--COFFEE-->
+        <article class="menu-card"
+                 data-category="recommended coffee">
+          <img src="images/MOON LATTE.jpg"
+               alt="ムーンラテ">
+        </article>
+
+        <article class="menu-card"
+                 data-category="coffee">
+          <img src="images/NIGHT BLEND.jpg"
+               alt="ナイトブレンド">
+        </article>
+
+        <article class="menu-card"
+                 data-category="coffee">
+          <img src="images/LUNAR MOCHA.jpg"
+               alt="ルナーモカ">
+        </article>
+
+        <!--DRINK-->
+        <article class="menu-card"
+                 data-category="recommended drink">
+          <img src="images/STARDUST SODA.jpg"
+               alt="スターダストソーダ">
+        </article>
+
+        <article class="menu-card"
+                 data-category="drink">
+          <img src="images/TWILIGHT TEA.jpg"
+               alt="トワイライトティー">
+        </article>
+
+        <article class="menu-card"
+                 data-category="drink">
+          <img src="images/AURORA FLOAT.jpg"
+               alt="オーロラフロート">
+        </article>
+
+        <!--FOOD-->
+        <article class="menu-card"
+                 data-category="food">
+          <img src="images/MOONLIGHT SANDWICH.jpg"
+               alt="ムーンサンドイッチ">
+        </article>
+
+        <article class="menu-card"
+                 data-category="food">
+          <img src="images/NIGHT PLATE.jpg"
+               alt="ナイトプレート">
+        </article>
+
+        <article class="menu-card"
+                 data-category="food">
+          <img src="images/LUNEVIA CROISSANT.jpg"
+               alt="ルネビアクロワッサン">
+        </article>
+
+        <!--DESSERT-->
+        <article class="menu-card"
+                 data-category="recommended dessert">
+          <img src="images/MIDNIGHT CHOCOLATE.jpg"
+               alt="ミッドナイトチョコレート">
+        </article>
+
+        <article class="menu-card"
+                 data-category="dessert">
+          <img src="images/MOON CHEESECAKE.jpg"
+               alt="ムーンチーズケーキ">
+        </article>
+
+        <article class="menu-card"
+                 data-category="dessert">
+          <img src="images/STARRY NIGHT PARFAIT.jpg"
+               alt="スターリーナイトパフェ">
+        </article>
+        
+      </div>
+
+    </section>
+
+    <!--NEWS-->
+    <section id="news">
+
+      <h2>NEWS</h2>
+
+      <div class="news-list">
+
+        <article class="news-item">
+          <time>2086.12.18</time>
+          <p>冬季限定「星降る夜のメニュー」が始まります</p>
+        </article>
+
+        <article class="news-item">
+          <time>2086.11.07</time>
+          <p>屋上スターラウンジをオープンしました</p>
+        </article>
+
+        <article class="news-item">
+          <time>2086.10.21</time>
+          <p>LUNEVIA 10周年「Moonlight Week」開催のお知らせ</p>
+        </article>
+
+        <article class="news-item">
+          <time>2086.09.14</time>
+          <p>秋限定の夜空をイメージした新作デザートが登場します</p>
+        </article>
+
+        <article class="news-item">
+          <time>2086.08.03</time>
+          <p>流星群観測日に伴う営業時間延長のお知らせ</p>
+        </article>
+
+      </div>
+
+    </section>
+
+    <!--ACCESS-->
+    <section id="access">
+
+      <h2>ACCESS</h2>
+
+      <div class="access-content">
+        
+        <div class="access-info">
+          <h3>LUNEVIA</h3>
+          
+          <div class="access-item">
+            <h4>ADDRESS</h4>
+            <p>星詠市 月影町 7-12</p>
+          </div>
+
+          <div class="access-item">
+            <h4>HOURS</h4>
+            <p>18:00 - 24:00</p>
+          </div>
+
+          <div class="access-item">
+            <h4>CLOSED</h4>
+            <p>Wednesday</p>
+          </div>
+          
+        </div>
+        
+        <div class="access-map">
+          <img src="images/Map.jpg" alt="LUNEVIA周辺MAP">
+        </div>
+        
+      </div>
+
+    </section>
+
+    <!--CONTACT-->
+    <section id="contact">
+
+      <h2>CONTACT</h2>
+
+      <p>ご予約・お問い合わせ</p>
+
+      <a href="#" class="contact-button">CONTACT</a>
+      
+    </section>
+
+  </main>
+
+  <!--フッター-->
+  <footer class="footer">
+
+    <p class="footer-logo">LUNEVIA</p>
+
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#news">NEWS</a></li>
+        <li><a href="#access">ACCESS</a></li>
+      </ul>
+    </nav>
+
+    <p class="copyright">&copy; LUNEVIA</p>
+
+  </footer>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
